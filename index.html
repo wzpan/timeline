@@ -37,8 +37,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <script type="text/javascript">
   var md = window.markdownit();
+  var timeStamp = new Date().getTime();
   $.ajax({
-      url: 'https://raw.githubusercontent.com/wzpan/timeline/gh-pages/timeline.yml',
+      url: `https://raw.githubusercontent.com/wzpan/timeline/gh-pages/timeline.yml?time=${timeStamp}`,
       //url: './timeline.yml',
       type: 'GET',
       success: response=>{
