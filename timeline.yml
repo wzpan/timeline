@@ -1,31 +1,59 @@
 timeline:
+  - year: 2019
+    entries:
+      - desc: "Principal teacher for a Python course [【NEXT学院】Python从入门到实战](https://ke.qq.com/course/384790)"
+        image: python.png
+        link: "[&copy;](http://ke.qq.com/)"
+      - desc: "Open source [*wukong-robot*](http://github.com/wzpan/wukong-robot), yet another elegant intelligent speaker."
+        image: original.jpg
+        link: "[&copy;](http://octodex.github.com/)"
+      - desc: "Gained *Outstanding performance* Award."
+        image: medal.jpg
+  - year: 2018
+    entries:
+      - desc: "Gained *Five-star Employee* Award."
+        image: medal.jpg      
+      - desc: "Gave a speech of *[Cocos based High Performance Cross-platform App Developing](https://gmtc2018.geekbang.org/presentation/532)* for [GMTC 2018](https://gmtc2018.geekbang.org/)."
+        image: gmtc.jpg
+        link: "[&copy;](http://geekbang.org/)"
+      - desc: "Tech lead of [*ABCmouse*](http://abcmouse.qq.com), an Early English Learning app for kids."
+        image: abcmouse.jpg
+        link: "[&copy;](http://abcmouse.qq.com/)"
+      - desc: "Principal teacher for a wechat minigame course [【NEXT学院】微信小游戏入门与实战](https://ke.qq.com/course/376950)"
+        image: minigame.jpeg
+        link: "[&copy;](http://ke.qq.com/)"
+      - desc: "Gained *Outstanding performance* Award."
+        image: medal.jpg
+      - desc: "Developer of [*Qrobot*](http://qrobot.qq.com), a smart speakers with a screen."
+        image: qrobot.jpeg
+        link: "[&copy;](http://qrobot.qq.com/)"
   - year: 2017
     entries:
-      - desc: "Senior Development Engineer at [*Tencent*](http://tencent.com)."
+      - desc: "Senior Development Engineer at [*Tencent*](http://tencent.com)&trade;."
         image: qq.jpg
-        copy: http://qq.com/
+        link: "[&copy;](http://qq.com/)"
       - desc: "Open source [*dingdang-robot*](http://github.com/wzpan/dingdang-robot), an intelligent speaker that can run on Raspberry-Pi."
         image: original.jpg
         link: "[&copy;](http://octodex.github.com/)"
   - year: 2016
     entries:
-      - desc: "Won *2016 Excellent Employee* Award"
+      - desc: "Won *2016 Excellent Employee* Award."
         image: medal.jpg
   - year: 2015
     entries:
-      - desc: "Gained *Distinguished Contribution Award*."
+      - desc: "Gained *Distinguished Contribution* Award."
         image: medal.jpg
       - desc: "Co-authorize [*hexo-generator-search*](http://github.com/wzpan/hexo-generator-search)."
         image: original.jpg 
         link: "[&copy;](http://octodex.github.com/)"
-      - desc: "Senior Research Engineer at [*PINGAN*](http://www.pingan.com.cn]."
+      - desc: "Senior Research Engineer at [*PINGAN*](http://www.pingan.com.cn)&trade;."
         image: pingan.jpg
   - year: 2014
     entries:
       - desc: "Developed [*Godeyes*](http://godeyes.duapp.com), a static APP language crash analyzing tool."
         image: godeyes.png
         link: "[&copy;](http://godeyes.duapp.com)"
-      - desc: "Work for [Baidu](http://www.baidu.com)."
+      - desc: "Work for [Baidu](http://www.baidu.com)&trade;."
         image: bdlogo.gif
       - desc: "Open source a C++ implementation of Eulerian Video Magnification [*QtEVM*](http://github.com/wzpan/QtEVM)."
         image: original.jpg
@@ -60,7 +88,7 @@ timeline:
         image: medal.jpg
   - year: 2010
     entries:
-      - desc: Part-time developer at [Baveda](http://www.baveda.com)."
+      - desc: Part-time developer at [Baveda](http://www.baveda.com)&trade;."
         image: bave.jpg
       - desc: "Intern student at [Visual Computing Research Center](http://vcc.siat.ac.cn), [Shenzhen Institute of Advanced Technology(SIAT)](http://www.siat.ac.cn), November 2010 &#8211; July 2011."
         image: siat.png
