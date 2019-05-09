@@ -18,7 +18,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 -->
 
   <link rel="stylesheet" href="stylesheets/style.css" media="screen" type="text/css" />
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/es5.shim/4.4.1/es5-shim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js"></script>
 </head>
 
 <body>
@@ -209,6 +212,18 @@ September 2007 &#8211; June 2011.<br/>
       
 </div>
 
+
 </body>
+
+<script type="text/javascript">
+  $.ajax({
+      url: 'https://raw.githubusercontent.com/wzpan/timeline/master/timeline.yml',
+      type: 'GET',
+      success: response=>{
+          var doc = jsyaml.load(response);
+          console.log(doc);
+      }
+  });
+</script>
 
 </html>

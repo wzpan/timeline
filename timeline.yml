@@ -1,0 +1,86 @@
+timeline:
+  - year: 2017
+    entries:
+      - desc: "Senior Development Engineer at [*Tencent*](http://tencent.com)."
+        image: qq.jpg
+        copy: http://qq.com/
+      - desc: "Open source [*dingdang-robot*](http://github.com/wzpan/dingdang-robot), an intelligent speaker that can run on Raspberry-Pi."
+        image: original.jpg
+        link: "[&copy;](http://octodex.github.com/)"
+  - year: 2016
+    entries:
+      - desc: "Won *2016 Excellent Employee* Award"
+        image: medal.jpg
+  - year: 2015
+    entries:
+      - desc: "Gained *Distinguished Contribution Award*."
+        image: medal.jpg
+      - desc: "Co-authorize [*hexo-generator-search*](http://github.com/wzpan/hexo-generator-search)."
+        image: original.jpg 
+        link: "[&copy;](http://octodex.github.com/)"
+      - desc: "Senior Research Engineer at [*PINGAN*](http://www.pingan.com.cn]."
+        image: pingan.jpg
+  - year: 2014
+    entries:
+      - desc: "Developed [*Godeyes*](http://godeyes.duapp.com), a static APP language crash analyzing tool."
+        image: godeyes.png
+        link: "[&copy;](http://godeyes.duapp.com)"
+      - desc: "Work for [Baidu](http://www.baidu.com)."
+        image: bdlogo.gif
+      - desc: "Open source a C++ implementation of Eulerian Video Magnification [*QtEVM*](http://github.com/wzpan/QtEVM)."
+        image: original.jpg
+        link: "[&copy;](http://octodex.github.com/)"
+  - year: 2013
+    entries:
+      - desc: "Gained *national scholarship* at [SCNU](http://www.scnu.edu.cn); Gained *quarterly scholarships* twice at [SIAT](http://siat.ac.cn)."
+        image: medal.jpg
+      - desc: "Doing research with [Baoquan Chen](http://web.siat.ac.cn/~baoquan/), [Daniel Cohen-Or](http://www.math.tau.ac.il/~dcor/), [Oliver Deaussen](http://graphics.uni-konstanz.de/mitarbeiter/deussen.php), [Andrei Sharf](http://www.idav.ucdavis.edu/~asharf/)."
+        image: deadline.jpg
+  - year: 2012
+    entries:
+      - desc: "Won *First Prize Innovation Scholarship*."
+        image: medal.jpg
+      - desc: "Intern student at [Visual Computing Research Center](http://vcc.siat.ac.cn), [Shenzhen Institute of Advanced Technology(SIAT)](http://www.siat.ac.cn), October 2012 &#8211; Jun 2013."
+        image: siat.png
+      - desc: "Organized [2012 Software Freedom Day @ Guangzhou](http://www.gzlug.org/?p=641)."
+        image: sfd.png
+        link: "[my talk](https://github.com/gzlug/slides/blob/master/2012.09.15/%E5%BC%80%E6%BA%90%E7%A6%85%E5%8F%B2.pdf?raw=true)"
+  - year: 2011
+    entries:
+      - desc: "Published my first open-source project [*SCNUThesis*](http://scnu.github.io/scnuthesis)."
+        image: original.jpg
+        link: "[&copy;](http://octodex.github.com/)"
+      - desc: "Won *silver Prize* at the *12th Challenge Cup of National College Students' Academic Works*."
+        image: medal.jpg
+      - desc: "Master candidate in Computer Applications Technology, [School of Computer](http://portal.scnu.edu.cn/wps/portal/cs), [South China Normal University](http://www.scnu.edu.cn), September 2011 &#8211; now."
+        image: scnu.jpg
+      - desc: "Gained bachelor degree from [South China Normal University](http://www.scnu.edu.cn). I was evaluated as outstanding and so as my dessertation.<br/>"
+        image: hat.jpg
+      - desc: "Won the *First Grade Scholarship*."
+        image: medal.jpg
+  - year: 2010
+    entries:
+      - desc: Part-time developer at [Baveda](http://www.baveda.com)."
+        image: bave.jpg
+      - desc: "Intern student at [Visual Computing Research Center](http://vcc.siat.ac.cn), [Shenzhen Institute of Advanced Technology(SIAT)](http://www.siat.ac.cn), November 2010 &#8211; July 2011."
+        image: siat.png
+      - desc: "Won the *Second Grade Scholarship*."
+        image: medal.jpg
+  - year: 2009
+    entries:
+      - desc: "Won the *First Grade Scholarship*."
+        image: medal.jpg
+  - year: 2008
+    entries:
+      - desc: "Won the *Second Grade Scholarship*."
+        image: medal.jpg
+      - desc: "Won the *Excellent Student Cadre* prize."
+        image: medal.jpg
+  - year: 2007
+    entries:
+      - desc: "Class monitor at class 5, grade 07, [School of Computer](http://portal.scnu.edu.cn/wps/portal/cs), [South China Normal University](http://www.scnu.edu.cn)."
+        image: scnu.jpg
+      - desc: "Bachelor of Science in Network Project, [School of Computer](http://portal.scnu.edu.cn/wps/portal/cs), [South China Normal University](http://www.scnu.edu.cn), September 2007 &#8211; June 2011."
+        image: scnu.jpg
+        
+       
