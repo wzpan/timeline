@@ -1,114 +1,90 @@
 timeline:
   - year: 2019
     entries:
-      - desc: "Principal teacher for a Python course [【NEXT学院】Python从入门到实战](https://ke.qq.com/course/384790)"
+      - desc: "腾讯课堂[《Python从入门到实战》](https://ke.qq.com/course/384790)主讲老师"
         image: python.png
         link: "[&copy;](http://ke.qq.com/)"
-      - desc: "Open source [*wukong-robot*](http://github.com/wzpan/wukong-robot), yet another elegant intelligent speaker."
+      - desc: "开源 [*wukong-robot*](http://github.com/wzpan/wukong-robot) "
         image: original.jpg
         link: "[&copy;](http://octodex.github.com/)"
-      - desc: "Gained *Outstanding performance* Award."
+      - desc: "获得优秀绩效奖"
         image: medal.jpg
   - year: 2018
     entries:
-      - desc: "Gained *Five-star Employee* Award."
+      - desc: "获得“五星员工”奖"
         image: medal.jpg      
-      - desc: "Gave a speech of *[Cocos based High Performance Cross-platform App Developing](https://gmtc2018.geekbang.org/presentation/532)* for [GMTC 2018](https://gmtc2018.geekbang.org/)."
+      - desc: "[GMTC 2018](https://gmtc2018.geekbang.org/)演讲嘉宾，\n分享《基于Cocos的高性能应用开发》"
         image: gmtc.jpg
         link: "[&copy;](http://geekbang.org/)"
-      - desc: "Tech lead of [*ABCmouse*](http://abcmouse.qq.com), an Early English Learning app for kids."
+      - desc: "[*ABCmouse*](http://abcmouse.qq.com) 项目技术负责人"
         image: abcmouse.jpg
         link: "[&copy;](http://abcmouse.qq.com/)"
-      - desc: "Principal teacher for a wechat minigame course [【NEXT学院】微信小游戏入门与实战](https://ke.qq.com/course/376950)"
+      - desc: "腾讯课堂[《微信小游戏入门与实战》](https://ke.qq.com/course/376950) 主讲老师"
         image: minigame.jpeg
         link: "[&copy;](http://ke.qq.com/)"
-      - desc: "Gained *Outstanding performance* Award."
+      - desc: "获得杰出绩效奖"
         image: medal.jpg
-      - desc: "Developer of [*Qrobot*](http://qrobot.qq.com), a smart speakers with a screen."
+      - desc: "开发[小Q机器人二代](http://qrobot.qq.com)"
         image: qrobot.jpeg
         link: "[&copy;](http://qrobot.qq.com/)"
   - year: 2017
     entries:
-      - desc: "Senior Development Engineer at [*Tencent*](http://tencent.com)&trade;."
+      - desc: "加入 [腾讯](http://tencent.com)&trade;."
         image: qq.jpg
         link: "[&copy;](http://qq.com/)"
-      - desc: "Open source [*dingdang-robot*](http://github.com/wzpan/dingdang-robot), an intelligent speaker that can run on Raspberry-Pi."
+      - desc: "开源中文智能音箱项目 [*dingdang-robot*](http://github.com/wzpan/dingdang-robot)"
         image: original.jpg
         link: "[&copy;](http://octodex.github.com/)"
   - year: 2016
     entries:
-      - desc: "Won *2016 Excellent Employee* Award."
+      - desc: "2016 年优秀员工"
         image: medal.jpg
   - year: 2015
     entries:
-      - desc: "Gained *Distinguished Contribution* Award."
+      - desc: "杰出贡献奖"
         image: medal.jpg
-      - desc: "Co-authorize [*hexo-generator-search*](http://github.com/wzpan/hexo-generator-search)."
+      - desc: "开发 [*hexo-generator-search*](http://github.com/wzpan/hexo-generator-search)"
         image: original.jpg 
         link: "[&copy;](http://octodex.github.com/)"
-      - desc: "Senior Research Engineer at [*PINGAN*](http://www.pingan.com.cn)&trade;."
+      - desc: "加入 [平安](http://www.pingan.com.cn)&trade;."
         image: pingan.jpg
   - year: 2014
     entries:
-      - desc: "Developed [*Godeyes*](http://godeyes.duapp.com), a static APP language crash analyzing tool."
+      - desc: "开发静态 APP crash 分析工具 [*Godeyes*](http://godeyes.duapp.com)"
         image: godeyes.png
         link: "[&copy;](http://godeyes.duapp.com)"
-      - desc: "Work for [Baidu](http://www.baidu.com)&trade;."
+      - desc: "加入 [百度](http://www.baidu.com)&trade;"
         image: bdlogo.gif
-      - desc: "Open source a C++ implementation of Eulerian Video Magnification [*QtEVM*](http://github.com/wzpan/QtEVM)."
+      - desc: "开源 Eulerian Video Magnification 的完整 C++ 实现 [*QtEVM*](http://github.com/wzpan/QtEVM)"
         image: original.jpg
         link: "[&copy;](http://octodex.github.com/)"
   - year: 2013
     entries:
-      - desc: "Gained *national scholarship* at [SCNU](http://www.scnu.edu.cn); Gained *quarterly scholarships* twice at [SIAT](http://siat.ac.cn)."
+      - desc: "获得国家奖学金"
         image: medal.jpg
-      - desc: "Doing research with [Baoquan Chen](http://web.siat.ac.cn/~baoquan/), [Daniel Cohen-Or](http://www.math.tau.ac.il/~dcor/), [Oliver Deaussen](http://graphics.uni-konstanz.de/mitarbeiter/deussen.php), [Andrei Sharf](http://www.idav.ucdavis.edu/~asharf/)."
+      - desc: "跟着 [陈宝权](http://web.siat.ac.cn/~baoquan/), [Daniel Cohen-Or](http://www.math.tau.ac.il/~dcor/), [Oliver Deaussen](http://graphics.uni-konstanz.de/mitarbeiter/deussen.php), [Andrei Sharf](http://www.idav.ucdavis.edu/~asharf/) 做科研"
         image: deadline.jpg
   - year: 2012
     entries:
-      - desc: "Won *First Prize Innovation Scholarship*."
-        image: medal.jpg
-      - desc: "Intern student at [Visual Computing Research Center](http://vcc.siat.ac.cn), [Shenzhen Institute of Advanced Technology(SIAT)](http://www.siat.ac.cn), October 2012 &#8211; Jun 2013."
+      - desc: "中国科学院深圳先进技术研究院[可视计算中心](http://vcc.siat.ac.cn)实习,\n 2012.10 &#8211; 2013.6"
         image: siat.png
-      - desc: "Organized [2012 Software Freedom Day @ Guangzhou](http://www.gzlug.org/?p=641)."
+      - desc: "组织[2012年全球软件自由日广州地区活动](http://www.gzlug.org/?p=641)."
         image: sfd.png
         link: "[my talk](https://github.com/gzlug/slides/blob/master/2012.09.15/%E5%BC%80%E6%BA%90%E7%A6%85%E5%8F%B2.pdf?raw=true)"
   - year: 2011
     entries:
-      - desc: "Published my first open-source project [*SCNUThesis*](http://scnu.github.io/scnuthesis)."
+      - desc: "发布第一个开源项目[*SCNUThesis*](http://scnu.github.io/scnuthesis)"
         image: original.jpg
         link: "[&copy;](http://octodex.github.com/)"
-      - desc: "Won *silver Prize* at the *12th Challenge Cup of National College Students' Academic Works*."
+      - desc: "第十二届“挑战杯”全国大学生课外学术科技作品竞赛银奖"
         image: medal.jpg
-      - desc: "Master candidate in Computer Applications Technology, [School of Computer](http://portal.scnu.edu.cn/wps/portal/cs), [South China Normal University](http://www.scnu.edu.cn), September 2011 &#8211; now."
+      - desc: "保送华南师范大学计算机学院硕士, \n2011.9 &#8211; 2014.6"
         image: scnu.jpg
-      - desc: "Gained bachelor degree from [South China Normal University](http://www.scnu.edu.cn). I was evaluated as outstanding and so as my dessertation.<br/>"
-        image: hat.jpg
-      - desc: "Won the *First Grade Scholarship*."
-        image: medal.jpg
-  - year: 2010
-    entries:
-      - desc: Part-time developer at [Baveda](http://www.baveda.com)&trade;."
-        image: bave.jpg
-      - desc: "Intern student at [Visual Computing Research Center](http://vcc.siat.ac.cn), [Shenzhen Institute of Advanced Technology(SIAT)](http://www.siat.ac.cn), November 2010 &#8211; July 2011."
-        image: siat.png
-      - desc: "Won the *Second Grade Scholarship*."
-        image: medal.jpg
-  - year: 2009
-    entries:
-      - desc: "Won the *First Grade Scholarship*."
-        image: medal.jpg
-  - year: 2008
-    entries:
-      - desc: "Won the *Second Grade Scholarship*."
-        image: medal.jpg
-      - desc: "Won the *Excellent Student Cadre* prize."
-        image: medal.jpg
+      - desc: "华南师范大学2014届百名优秀毕业生"
+        image: hat.jpg      
   - year: 2007
     entries:
-      - desc: "Class monitor at class 5, grade 07, [School of Computer](http://portal.scnu.edu.cn/wps/portal/cs), [South China Normal University](http://www.scnu.edu.cn)."
-        image: scnu.jpg
-      - desc: "Bachelor of Science in Network Project, [School of Computer](http://portal.scnu.edu.cn/wps/portal/cs), [South China Normal University](http://www.scnu.edu.cn), September 2007 &#8211; June 2011."
+      - desc: "华南师范大学网络工程系本科生, \n2007.9 - 2011.6"
         image: scnu.jpg
         
        
