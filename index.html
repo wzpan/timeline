@@ -17,11 +17,11 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 
-  <link rel="stylesheet" href="https://hahack-1253537070.cos.ap-chengdu.myqcloud.com/timeline/style.css" media="screen" type="text/css" />
-  <script src="https://hahack-1253537070.cos.ap-chengdu.myqcloud.com/timeline/jquery.min.js"></script>
-  <script src="https://hahack-1253537070.cos.ap-chengdu.myqcloud.com/timeline/es5-shim.min.js"></script>
-  <script src="https://hahack-1253537070.cos.ap-chengdu.myqcloud.com/timeline/js-yaml.min.js"></script>
-  <script src="https://hahack-1253537070.cos.ap-chengdu.myqcloud.com/timeline/markdown-it.min.js"></script>
+  <link rel="stylesheet" href="stylesheets/style.css" media="screen" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/es5.shim/4.4.1/es5-shim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js"></script>
 </head>
 
 <body>
@@ -39,7 +39,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   var md = window.markdownit();
   var timeStamp = new Date().getTime();
   $.ajax({
-      url: `https://hahack-1253537070.cos.ap-chengdu.myqcloud.com/timeline/timeline.yml?time=${timeStamp}`,
+      url: `https://raw.githubusercontent.com/wzpan/timeline/gh-pages/timeline.yml?time=${timeStamp}`,
+      //url: './timeline.yml',
       type: 'GET',
       success: response=>{
           var doc = jsyaml.load(response);
@@ -59,7 +60,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
               firstEntry = true;
               for (j in entries) {
                   var entry = entries[j];
-                  var desc = md.render(entry.desc).replace('\n', '<br/>');
+                  var desc = md.render(entry.desc);
                   var image = entry.image ? `<img class='centered' src="imgs/${entry.image}" alt=""><br/>` : '';
                   var link = entry.link ? md.render(entry.link) : '';
                   if (firstEntry) {
